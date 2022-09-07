@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "wandb_backup"
+version = "1.0.0"
+authors = [
+  { name="Johann Haselberger", email="johann.haselberger@hs-kempten.de" },
+]
+description = "Tiny python tool to backup all wandb files"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/gismo07/wandb_backup"
+"Bug Tracker" = "https://github.com/gismo07/wandb_backup/issues"
